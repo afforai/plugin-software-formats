@@ -1,6 +1,6 @@
 {
   "name": "@afforai/citation-js-plugin-cff",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "Citation.js plugin for the Citation File Format (CFF)",
   "keywords": [
     "Citation.js",

@@ -1,3 +1,7 @@
+# [](https://github.com/afforai/plugin-software-formats/compare/v0.6.3...v) (2024-07-24)
+
+
+
 #  (2024-07-24)
 
 
