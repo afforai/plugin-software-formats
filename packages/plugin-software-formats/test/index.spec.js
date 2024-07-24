@@ -3,7 +3,7 @@
 import '../src/'
 
 import assert from 'assert'
-import { plugins } from '@citation-js/core'
+import { plugins } from '@afforai/citation-js-core'
 
 describe('has plugin for', function () {
   it('cff', () => { assert(plugins.has('@cff')) })

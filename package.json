@@ -7,7 +7,7 @@
     "@babel/eslint-parser": "^7.14.3",
     "@babel/preset-env": "^7.12.11",
     "@babel/register": "^7.12.10",
-    "@citation-js/core": "^0.6.0",
+    "@afforai/citation-js-core": "^0.7.17",
     "conventional-changelog-cli": "^2.1.1",
     "dotenv": "^16.0.1",
     "eslint-plugin-vuln-regex-detector": "^1.0.4",

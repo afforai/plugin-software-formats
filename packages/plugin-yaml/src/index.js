@@ -1,5 +1,5 @@
 import yaml from 'js-yaml'
-import { plugins } from '@citation-js/core'
+import { plugins } from '@afforai/citation-js-core'
 
 // See https://github.com/nodeca/js-yaml/issues/569
 const timestampTag = 'tag:yaml.org,2002:timestamp'

@@ -1,4 +1,4 @@
-const { util } = require('@citation-js/core')
+const { util } = require('@afforai/citation-js-core')
 
 async function main () {
   const file = await util.fetchFileAsync('https://raw.githubusercontent.com/citation-file-format/citation-file-format/1.1.0/examples.md')

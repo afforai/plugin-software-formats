@@ -24,3 +24,6 @@ coverage.lcov
 #
 .directory
 .env
+
+# publishing
+.npmrc

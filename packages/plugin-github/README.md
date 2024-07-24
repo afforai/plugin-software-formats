@@ -25,7 +25,7 @@ require('@citation-js/plugin-github')
 The plugin can then be used as following:
 
 ```js
-const { Cite, plugins } = require('@citation-js/core')
+const { Cite, plugins } = require('@afforai/citation-js-core')
 
 plugins.config.get('@github').setApiToken(OAUTH_TOKEN)
 

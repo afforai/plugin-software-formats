@@ -1,4 +1,4 @@
-import { plugins, util } from '@citation-js/core'
+import { plugins, util } from '@afforai/citation-js-core'
 import { parse as parseDate } from '@citation-js/date'
 import { parse as parseName } from '@citation-js/name'
 

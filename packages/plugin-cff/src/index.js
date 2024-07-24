@@ -1,7 +1,7 @@
-import { plugins, util } from '@citation-js/core'
+import { plugins, util } from '@afforai/citation-js-core'
 import { parse as parseDate } from '@citation-js/date'
 
-import '@citation-js/plugin-yaml'
+import '@afforai/citation-js-plugin-yaml'
 
 /**
  * Format: Citation File Format (CFF) version 1.2.0

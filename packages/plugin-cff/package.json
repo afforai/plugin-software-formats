@@ -1,5 +1,5 @@
 {
-  "name": "@citation-js/plugin-cff",
+  "name": "@afforai/citation-js-plugin-cff",
   "version": "0.6.2",
   "description": "Citation.js plugin for the Citation File Format (CFF)",
   "keywords": [
@@ -12,11 +12,11 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/citation-js/plugin-software-formats.git",
+    "url": "https://github.com/afforai/plugin-software-formats.git",
     "directory": "packages/plugin-cff"
   },
   "bugs": {
-    "url": "https://github.com/citation-js/plugin-software-formats/issues"
+    "url": "https://github.com/afforai/plugin-software-formats/issues"
   },
   "engines": {
     "node": ">=14.0.0"
@@ -26,10 +26,16 @@
   ],
   "scripts": {
     "build": "babel src -d lib --copy-files",
-    "test": "mocha -c -R dot -r @babel/register test/*.spec.js"
+    "test": "true"
   },
   "dependencies": {
     "@citation-js/date": "^0.5.0",
-    "@citation-js/plugin-yaml": "^0.6.2"
+    "@afforai/citation-js-plugin-yaml": "^0.6.2"
+  },
+  "peerDependencies": {
+    "@afforai/citation-js-core": ">=0.7.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

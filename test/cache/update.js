@@ -4,7 +4,7 @@ require('dotenv').config({ path: path.join(__dirname, '../../.env') })
 
 const cache = {}
 
-const modulePath = require.resolve('@citation-js/core/lib/util/fetchFile.js')
+const modulePath = require.resolve('@afforai/citation-js-core/lib/util/fetchFile.js')
 require(modulePath)
 
 const mockModule = require.cache[modulePath]
@@ -14,7 +14,7 @@ mockModule.exports.fetchFileAsync = function ours (url, ...args) {
     .then(response => (cache[url] = response))
 }
 
-const { Cite, plugins } = require('@citation-js/core')
+const { Cite, plugins } = require('@afforai/citation-js-core')
 require('../..')
 plugins.config.get('@github').setApiToken(process.env.GITHUB_OAUTH_TOKEN)
 
