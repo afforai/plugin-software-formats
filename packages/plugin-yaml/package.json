@@ -1,6 +1,6 @@
 {
   "name": "@afforai/citation-js-plugin-yaml",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Citation.js plugin for YAML files",
   "keywords": [
     "Citation.js",

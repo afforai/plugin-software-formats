@@ -1,6 +1,6 @@
 {
   "name": "@afforai/citation-js-plugin-cff",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Citation.js plugin for the Citation File Format (CFF)",
   "keywords": [
     "Citation.js",
@@ -29,8 +29,8 @@
     "test": "true"
   },
   "dependencies": {
-    "@citation-js/date": "^0.5.0",
-    "@afforai/citation-js-plugin-yaml": "^0.6.2"
+    "@afforai/citation-js-plugin-yaml": "^0.6.3",
+    "@citation-js/date": "^0.5.0"
   },
   "peerDependencies": {
     "@afforai/citation-js-core": ">=0.7.0"

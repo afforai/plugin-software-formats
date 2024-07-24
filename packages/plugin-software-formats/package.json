@@ -1,6 +1,6 @@
 {
   "name": "@afforai/citation-js-plugin-software-formats",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Collection of software-related input and output formats for Citation.js",
   "author": "Lars Willighagen",
   "license": "MIT",
@@ -24,11 +24,11 @@
     "test": "true"
   },
   "dependencies": {
-    "@afforai/citation-js-plugin-cff": "^0.6.2",
-    "@afforai/citation-js-plugin-github": "^0.6.2",
-    "@afforai/citation-js-plugin-npm": "^0.6.2",
-    "@afforai/citation-js-plugin-yaml": "^0.6.2",
-    "@afforai/citation-js-plugin-zenodo": "^0.6.2"
+    "@afforai/citation-js-plugin-cff": "^0.6.3",
+    "@afforai/citation-js-plugin-github": "^0.6.3",
+    "@afforai/citation-js-plugin-npm": "^0.6.3",
+    "@afforai/citation-js-plugin-yaml": "^0.6.3",
+    "@afforai/citation-js-plugin-zenodo": "^0.6.3"
   },
   "peerDependencies": {
     "@afforai/citation-js-core": ">=0.7.0"

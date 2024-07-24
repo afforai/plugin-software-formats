@@ -1,3 +1,50 @@
+#  (2024-07-24)
+
+
+### Bug Fixes
+
+* **cff:** date output for missing day/month ([2913217](https://github.com/afforai/plugin-software-formats/commit/2913217c3717fbfe629c173ab6d5c258b250c936))
+* **cff:** do not rely on end of page range to exist ([736a358](https://github.com/afforai/plugin-software-formats/commit/736a358c72e9b8659a34ffb2596af0efe81ce352))
+* **cff:** drop timestamp of dates in YAML ([97a81c0](https://github.com/afforai/plugin-software-formats/commit/97a81c0c9a9756bfa5a30505202c0b2f3cde163b))
+* **cff:** fix new converter ([2491f20](https://github.com/afforai/plugin-software-formats/commit/2491f207a2b292a55a6dce8a9e36766967d5c964))
+* **cff:** handle string date values ([36c5acd](https://github.com/afforai/plugin-software-formats/commit/36c5acd7d25156f734b31f0b704b571efe123f9f))
+* escape dots in predicate patterns ([b89bc50](https://github.com/afforai/plugin-software-formats/commit/b89bc50329d9ad0966e7655750a999278bc421ee)), closes [#12](https://github.com/afforai/plugin-software-formats/issues/12)
+* **gh:** fix version extractor for tag-less repos ([93fe225](https://github.com/afforai/plugin-software-formats/commit/93fe225ddb219621d8d4a372e55cc509c8e6dec6))
+* **npm:** fix npm plugin name -> [@npm](https://github.com/npm) ([ff3ca0d](https://github.com/afforai/plugin-software-formats/commit/ff3ca0dab80de9ac1af28f544bad84a92ea4399f))
+
+
+### chore
+
+* replace yamljs with js-yaml ([165cb95](https://github.com/afforai/plugin-software-formats/commit/165cb95130d1ddbdcbfe5a5245a2eeb2f439b6bc))
+
+
+* chore!: raise minimal Node.js version ([8ae033e](https://github.com/afforai/plugin-software-formats/commit/8ae033e5352edf1a6aca20867b9e9d9384b7ad75))
+* chore!: drop Node 6 support ([f0d3ccb](https://github.com/afforai/plugin-software-formats/commit/f0d3ccbc518fe130346bbb115d72c0530a59a034))
+* chore!: remove browser build ([011463a](https://github.com/afforai/plugin-software-formats/commit/011463a0069b657ae0d20e3fb53e24f73453d44d))
+
+
+### Features
+
+* **cff:** update to CFF 1.1.0 ([810c8a5](https://github.com/afforai/plugin-software-formats/commit/810c8a5522bd7902fd27bbe290dda0606e7149dd))
+* **cff:** update to CFF v1.2.0 ([e4851bc](https://github.com/afforai/plugin-software-formats/commit/e4851bc0fd8a08e2b71e657b859a6484843615c5))
+* **gh:** add version number ([d8b2bac](https://github.com/afforai/plugin-software-formats/commit/d8b2bac3188c9cd95f3306bc8662d5043b2ffad9))
+* **gh:** make GitHub token writeable only ([783418d](https://github.com/afforai/plugin-software-formats/commit/783418dfde0ecad7a8cfc6938a0a9611345034a1))
+* update mappings to CSL v1.0.2 ([9142eae](https://github.com/afforai/plugin-software-formats/commit/9142eae1bb86adc09e3e0d76e5679c34b582df44))
+* **zenodo:** support .zenodo.json ([8a7e0a2](https://github.com/afforai/plugin-software-formats/commit/8a7e0a297677425c32d3303896a07fe44fcb6483))
+
+
+### BREAKING CHANGES
+
+* Use Node.js 14 or higher
+* YAML output may look different
+* **gh:** set the GitHub OAuth token with
+Cite.plugins.config.get('@github').setApiToken(OAUTH_TOKEN)
+instead.
+* drop Node 6 support
+* no browser build
+
+
+
 # [](https://github.com/citation-js/plugin-software-formats/compare/v0.6.1...v) (2023-12-14)
 
 
