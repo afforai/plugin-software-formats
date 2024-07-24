@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "build": "babel src -d lib --copy-files",
-    "test": "true"
+    "test": "mocha -c -R dot -r @babel/register test/*.spec.js"
   },
   "dependencies": {
     "@afforai/citation-js-plugin-cff": "^0.6.3",
